@@ -25,6 +25,7 @@ int main()
 	{
 		for (int i = 0; i < cowphabet.size(); i++)
 		{
+			cout << i;
 			if (cowphabet1[i] == heardLetters[0])
 			{
 				heardLetters.erase(heardLetters.begin());
