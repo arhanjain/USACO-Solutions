@@ -33,46 +33,4 @@ int main()
 	}
 
 	cout << midpoint;
-	/*
-	cin >> n;
-	vector<int> answers;
-	int x; int y;
-	
-	int lastProb = 0;
-	for (int i = 0; i < n; i++)
-	{
-		cin >> x >> y; x++; y++;
-		grid[x][y] = 1;
-		int nearby = check(x, y);
-		if (nearby == 3)
-		{
-			lastProb++;
-		}
-			
-		int left = check(x - 1, y);
-		int right = check(x + 1, y);
-		int top = check(x, y+1);
-		int down = check(x, y-1);
-
-		if (left == 4) lastProb--;
-		if (left == 3) lastProb++;
-
-		if (right == 4) lastProb--;
-		if (right == 3) lastProb++;
-
-		if (top == 4) lastProb--;
-		if (top == 3) lastProb++;
-		
-		if (down == 4) lastProb--;
-		if (down == 3) lastProb++;
-
-		answers.push_back(lastProb);
-	
-	}
-
-	for (int i : answers)
-	{
-		cout << i << "\n";
-	}
-	*/
 }
